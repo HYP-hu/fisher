@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+我们爱学习!!!
+    {{data.age}}
+    {{data['name']}}
+    {{ data2.test }}
+    {% if data.age == 18 %}
+        {% set lst = [] %}
+        {{ 11111111 }}
+        <span>{{ [AAAAA| d(''), data.publisher | d('', true) , '￥' + data.price | d('')] | join(' / ') }}</span>
+        {{ 22222222 }}
+    {% elif data.age <18 %}
+        do something
+    {% else %}
+
+        {{ data.age }}
+    {% endif %}
+</body>
+</html>
